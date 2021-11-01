@@ -9,11 +9,11 @@ import java.util.Properties;
 
 public class CapabilitiesManager {
 	TestUtils utils = new TestUtils();
-
+	Properties props=null;
 	public DesiredCapabilities getCaps() throws IOException {
 		DesiredCapabilities caps = new DesiredCapabilities();
 
-		Properties props = new PropertyManager().getProps();
+		 props = new PropertyManager().getProps();
 		try {
 			utils.log().info("getting capabilities");
 			System.out.println(props.get("androidAutomationName"));
@@ -43,4 +43,6 @@ public class CapabilitiesManager {
 		return caps;
 	}
 
+	
+	
 }

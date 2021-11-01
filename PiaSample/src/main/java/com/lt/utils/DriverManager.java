@@ -29,10 +29,11 @@ public class DriverManager {
                 utils.log().info("initializing Appium driver");
                 switch(props.get("platformName").toString()){
                     case "android":
-                        driver = new AndroidDriver<MobileElement>(new URL("http://localhost:4723/wd/hub"), new CapabilitiesManager().getCaps());
+                        driver = new AndroidDriver<MobileElement>(new URL("https://localhost:4723/wd/hub"), new CapabilitiesManager().getCaps());
+                        System.out.println(driver);
                         break;
                     case "iOS":
-                        driver = new IOSDriver<MobileElement>(new URL("http://localhost:4723/wd/hub"), new CapabilitiesManager().getCaps());
+                        driver = new IOSDriver<MobileElement>(new URL("https://localhost:4723/wd/hub"), new CapabilitiesManager().getCaps());
                         break;
                 }
                 if(driver == null){

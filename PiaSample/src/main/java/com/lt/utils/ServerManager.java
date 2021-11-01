@@ -34,7 +34,7 @@ public class ServerManager {
     }
 
     public AppiumDriverLocalService WindowsGetAppiumService() {
-        GlobalParams params = new GlobalParams();
+       GlobalParams params = new GlobalParams();
         return AppiumDriverLocalService.buildService(new AppiumServiceBuilder()
                 .usingAnyFreePort()
                 .withArgument(GeneralServerFlag.SESSION_OVERRIDE)
