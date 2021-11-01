@@ -1,0 +1,18 @@
+2021-11-01 09:24:40:396 [Appium] Welcome to Appium v1.18.2
+2021-11-01 09:24:40:398 [Appium] Non-default server args:
+2021-11-01 09:24:40:399 [Appium]   port: 45595
+2021-11-01 09:24:40:399 [Appium]   sessionOverride: true
+2021-11-01 09:24:40:400 [Appium]   logFile: D:\workspace\PiaSample\Android_OnePlus\Server.log
+2021-11-01 09:24:40:438 [Appium] Appium REST http interface listener started on 0.0.0.0:45595
+2021-11-01 09:24:41:127 [HTTP] --> GET /wd/hub/status
+2021-11-01 09:24:41:127 [HTTP] {}
+2021-11-01 09:24:41:129 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-11-01 09:24:41:131 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.18.2"}}
+2021-11-01 09:24:41:135 [HTTP] <-- GET /wd/hub/status 200 7 ms - 68
+2021-11-01 09:24:41:135 [HTTP] 
+2021-11-01 09:24:41:144 [HTTP] --> GET /wd/hub/status
+2021-11-01 09:24:41:144 [HTTP] {}
+2021-11-01 09:24:41:144 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2021-11-01 09:24:41:145 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.18.2"}}
+2021-11-01 09:24:41:146 [HTTP] <-- GET /wd/hub/status 200 1 ms - 68
+2021-11-01 09:24:41:146 [HTTP] 
